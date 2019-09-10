@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<ul>
+{% for week in site.data.timeline %}
+  <a> LINK </a>
+  <!-- <li>
+    Week: {{ week.week }}
+  </li>
+  <li>
+    {{ week.date-range }}
+  </li>
+  <li>
+    {% for event in week.events %}
+      {% if event.title %}
+        {{ event.title }}
+      {% endif %}
+      {% if event.date %}
+        {{ event.date }}
+      {% endif %}
+      {% if event.description %}
+        {{ event.description }}
+      {% endif %}
+    {% endfor %}
+  </li> -->
+{% endfor %}
+</ul>
