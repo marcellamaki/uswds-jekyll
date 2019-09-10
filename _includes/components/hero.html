@@ -1,6 +1,10 @@
 {% if hero %}
-<section class="usa-hero"{% if hero.image %}
-  style="background-image: url('{{ hero.image | relative_url }}')"{% endif %}>
+<section class="usa-hero"
+  {% if hero.color %}
+    style="background-color: {{ hero.color }}; background-image: none"
+  {% elsif hero.image %}
+    style="background-image: url('{{ hero.image | relative_url }}')"
+  {% endif %}>
   <div class="usa-grid">
     <div class="usa-hero-callout usa-section-dark">
       {% if hero.callout %}
