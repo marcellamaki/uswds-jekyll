@@ -1,5 +1,6 @@
 title: This is the site title
 description: This is the site description.
+theme: uswds-jekyll
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
