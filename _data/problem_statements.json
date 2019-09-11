@@ -1,0 +1,34 @@
+[
+  {"problem_statement": "Catalyzing Investment in Opportunity Zones",
+    "department": "White House Council of Economic Advisors & U.S. Department of Housing and Urban Development",
+    "goal": "Create digital tools and resources to connect investors with community leaders, entrepreneurs, and workers of America’s 8,764 Opportunity Zones",
+    "teams": [
+      {"team_lead_title": "Executive Champion",
+        "team_leads": ["Secretary Ben Carson", "Executive Director Scott Turner"],
+        "team_role": "Tech Teams",
+        "collaborators": ["Proximate", "Solve.Is", "MIT CSAIL", "Public Democracy", "Citi Ventures"]
+      },
+      {"team_lead_title": "Product Advisors",
+        "team_leads": ["Alex Ocampo", "Bryan Lane", "Tom Juarez"],
+        "team_role": "User Advocates",
+        "collaborators": ["Global Three Ventures", "Startup Champions Network", "Local Grown Salads", "SC Opportunity Fund", "Xlerate Health"]
+      },
+      ]
+  },
+  {"problem_statement": "Modernizing Talent Discovery for High Growth Entrepreneurship",
+    "department": "U.S. Economic Development Administration",
+    "goal": "Create digital tools or open sourced data to transform talent discovery, matching, and retention in mid-size cities across the country, to help them achieve innovation and regional economic growth.",
+    "teams": [
+      {"team_lead_title": "Executive Champion",
+        "team_leads": ["Dennis Alvord, EDA Deputy Assistant Secretary for Regional Affairs"],
+        "team_role": "Tech Teams",
+        "collaborators": ["Esmi", "Burning Glass Technologies", "Redfin"]
+      },
+      {"team_lead_title": "Product Advisors",
+        "team_leads": ["Emily Miller", "Craig Buerstatte"],
+        "team_role": "User Advocates",
+        "collaborators": ["Flex Jobs", "Greater MSP", "Harvard Business School", "National League of Cities", "Startup Champions Network"]
+      },
+      ]
+  }
+]
