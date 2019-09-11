@@ -1,5 +1,5 @@
 [{"week": 0,
-   "date-range": "July 1 - July 5",
+   "date_range": "July 1 - July 5",
    "events": [
      {"title": "Join our Slack Community",
      "description": "New to Slack? Check out this page to get some tips on getting started."
@@ -9,7 +9,7 @@
        "description": "Join an incredible group of TOP participants in an interactive workshop to get a deeper understanding of how the program will unfold, and a preview of the next 12 weeks."
      }]},
   {"week": 1,
-  "date-range": "July 8 - July 12",
+  "date_range": "July 8 - July 12",
   "events": [
     {"title": "Problem Statement Orientation",
     "description": "Dive into the weeds about your problem statement, and get more information about the goals of each challenge."
@@ -18,20 +18,20 @@
       "description": "In parallel to learning about the problem statements, learn more about the communities that are most affected by them and what their experiences, needs and challenges are like."
     }]},
     {"week": 2,
-   "date-range": "July 15 - July 19",
+   "date_range": "July 15 - July 19",
    "events": [
      {"title": "User Research Milestone",
        "date": "7/18",
        "description": "Teams join the virtual milestone to share findings from user research that will inform the design of their product, and connect with user advocates to get feedback"
      }]},
      {"week": 3,
-  "date-range": "July 22 - July 26",
+  "date_range": "July 22 - July 26",
   "events": [
     {"title": "User Research + Data Exploration",
       "description": "Teams continue to conduct user research and begin to explore available data sets"
    }]},
    {"week": 4,
-  "date-range": "July 29 - August 2",
+  "date_range": "July 29 - August 2",
   "events": [
     {"title": "Continue Data Exploration",
     "description": "Teams continue to explore available data sets"
@@ -41,33 +41,33 @@
       "description": "Teams join the virtual milestone to hear from data stewards and ask questions on available data sets"
     }]},
   {"week": 5,
-   "date-range": "August 5 - August 9",
+   "date_range": "August 5 - August 9",
    "events": [
      {"title": "Data Exploration & Product Development",
        "description": "Teams explore available data sets, connect with data stewards, and begin scoping/developing products"
     }]},
   {"week": 6,
-   "date-range": "August 12 - August 16",
+   "date_range": "August 12 - August 16",
    "events": [
      {"title": "Alpha Demo Milestone",
        "date": "8/15",
        "description": "Participants come together for a virtual demo of the tools in progress. Teams share concepts and wireframes, and get feedback from user advocates, data stewards, and product experts."
     }]},
   {"week": 7,
-   "date-range": "August 19 - August 23",
+   "date_range": "August 19 - August 23",
    "events": [
      {"title": "Product Development & User Testing",
        "description": "Teams continue building products and collect user feedback"
     }]},
   {"week": 8,
-   "date-range": "August 26 - August 30",
+   "date_range": "August 26 - August 30",
    "events": [
      {"title": "Beta Demo Milestone",
        "date": "8/29",
        "description": "Teams come together to showcase and share feedback on more mature versions of their products. Typically, tools have reached at least wireframes and have some functioning features."
     }]},
   {"week": 9,
-   "date-range": "September 2 - September 6",
+   "date_range": "September 2 - September 6",
    "events": [
      {"title": "Product Development & User Testing",
        "description": "Teams continue building products and conduct user testing"
@@ -76,13 +76,13 @@
         "description": "Sept 2nd"
       }]},
   {"week": 10,
-   "date-range": "September 16 - September 20",
+   "date_range": "September 16 - September 20",
    "events": [
      {"title": "Product Development",
        "description": "Teams continue building prototypes/products"
     }]},
   {"week": 11,
-   "date-range": "September 23 - September 27",
+   "date_range": "September 23 - September 27",
    "events": [
      {"title": "Present final MVPs",
        "description": "Teams share MVP with TOP team prior to collective rollout"
