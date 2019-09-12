@@ -1,54 +1,63 @@
 ---
 layout: default
 ---
-<h4> TIMELINE </h4>
-<ul>
-{% assign i = 1 %}
-  {% for week in site.data.timeline %}
-    <a> {% increment i %} </a>
-    <li>
-      Week: {{ week.week }}
-    </li>
-    <li>
-      {{ week.date-range }}
-    </li>
-    <li>
-      {% for event in week.events %}
-        {% if event.title %}
-          {{ event.title }}
-        {% endif %}
-        {% if event.date %}
-          {{ event.date }}
-        {% endif %}
-        {% if event.description %}
-          {{ event.description }}
-        {% endif %}
-      {% endfor %}
-    </li>
-  {% endfor %}
-</ul>
 
-<hr></hr>
+<div id="timeline">
+  <ul class="weeks">
+    <span>
+      {% for week in site.data.timeline %}
+        <input class="" id="button-week-{{ week.week }}"  type="radio" name="toggler" value="week-{{ week.week }}" />
+        <!-- <input type="submit" value="Submit"> -->
+      {% endfor %}
+    </span>
+    {% for week in site.data.timeline %}
+    <div id="week-{{ week.week }}" class="toHide" style="display:none">
+      <li>
+        Week: {{ week.week }}
+        {{ week.date_range }}
+      </li>
+      <li>
+        {% for event in week.events %}
+          {% if event.title %}
+            {{ event.title }}
+          {% endif %}
+          {% if event.date %}
+            {{ event.date }}
+          {% endif %}
+          {% if event.description %}
+            {{ event.description }}
+          {% endif %}
+        {% endfor %}
+      </li>
+    </div>
+    {% endfor %}
+  </ul>
+</div>
+
 {% for problem in site.data.problem_statements %}
-  <p> {{ problem.problem_statement }} </p>
-  <p> {{ problem.department }} </p>
-  <p> {{ problem.goal }} </p>
-  {% for team in problem.teams %}
-    {% if team.team_lead_title %}
-      <p> {{ team.team_lead_title }} </p>
-    {% endif %}
-    {% if team.team_leads %}
-      {% for lead in team.team_leads %}
-        <p> {{ lead }} </p>
+  <section class="usa-grid usa-section">
+    <div class="usa-width-one-third">
+      <h3> {{ problem.problem_statement }} </h3>
+      <p> {{ problem.department }} </p>
+      <h4> {{ problem.goal }} </h4>
+      {% for team in problem.teams %}
+        {% if team.team_lead_title %}
+          <p> {{ team.team_lead_title }} </p>
+        {% endif %}
+        {% if team.team_leads %}
+          {% for lead in team.team_leads %}
+            <p> {{ lead }} </p>
+          {% endfor %}
+        {% endif %}
+        {% if team.team_role %}
+          <p> {{ team.team_role }} </p>
+        {% endif %}
+        {% if team.collaborators %}
+          {% for collaborator in team.collaborators %}
+            <p> {{ collaborator }} </p>
+          {% endfor %}
+        {% endif %}
       {% endfor %}
-    {% endif %}
-    {% if team.team_role %}
-      <p> {{ team.team_role }} </p>
-    {% endif %}
-    {% if team.collaborators %}
-      {% for collaborator in team.collaborators %}
-        <p> {{ collaborator }} </p>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+    </div>
+  </section>
 {% endfor %}
