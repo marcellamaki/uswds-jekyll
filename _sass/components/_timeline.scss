@@ -1,0 +1,106 @@
+.usa-hero-callout.usa-section-dark {
+  background-color: #0059FC;
+  color: #FFFFFF;
+  width: 528px;
+  .usa-hero-callout-alt {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    width: 528px;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 26px;
+    width: 528px;
+    color: #FFFFFF;
+  }
+
+  .hero-header-alt {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    width: 528px;
+  }
+}
+
+.problem-statement-section-outer {
+  background: #FCFCFC;
+  ul.problem-statement-section-inner {
+    padding-left: 229px;
+    padding-top: 147px;
+
+    li.problem-statement-team-leads {
+      width: 213px;
+      margin-right: 5%;
+      display: inline-block;
+      vertical-align: text-top;
+    }
+
+    li.problem-statement-collaborators {
+      width: 900px;
+      display: inline-block;
+      vertical-align: text-top;
+    }
+
+    p.problem-statement-gray-text {
+      width: 359px;
+      font-size: 15px;
+      line-height: 20px;
+      color: #4F4F4F;
+    }
+
+    li.problem-statement-gray-text-bold {
+      width: 257px;
+      padding: 9px;
+      left: 0;
+      margin-right: 5px;
+      font-size: 15px;
+      line-height: 20px;
+      color: #4F4F4F;
+      font-weight: bold;
+      display: inline-block;
+      border-top-style: solid;
+    }
+    p.problem-statement-black-text {
+      font-size: 18px;
+      line-height: 30px;
+      color: #000000;
+    }
+    h3 {
+      font-family: sans-serif;
+      line-height: 40px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    h4 {
+      font-family: sans-serif;
+      line-height: 30px;
+      font-size: 20px;
+      width: 50%
+    }
+  }
+}
+
+.weeks-carousel {
+  margin-left: 20em;
+  padding: 20px;
+  label {
+    margin: 2%;
+    padding: 10px;
+    color: #FFC402;
+    font-size: 20px;
+  }
+}
+
+.weeks-carousel-week {
+  margin-left: 30%;
+  width: 523px;
+}
