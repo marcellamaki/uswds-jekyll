@@ -32,11 +32,14 @@
   }
 }
 
+section:nth-of-type(even) {background: #FFF}
+section:nth-of-type(odd) {background: #FCFCFC}
+
 .problem-statement-section-outer {
-  background: #FCFCFC;
   ul.problem-statement-section-inner {
     padding-left: 229px;
     padding-top: 147px;
+    padding-bottom: 77px;
 
     li.problem-statement-team-leads {
       width: 213px;

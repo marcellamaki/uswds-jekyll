@@ -31,39 +31,40 @@ layout: default
     {% endfor %}
   </div>
 
-
   {% for problem in site.data.problem_statements %}
-    <div class="problem-statement-section-outer">
-      <ul class="problem-statement-section-inner">
-        <h3> {{ problem.problem_statement }} </h3>
-        <p class="problem-statement-gray-text"> {{ problem.department }} </p>
-        <h4> {{ problem.goal }} </h4>
-        {% for team in problem.teams %}
-          <li class="problem-statement-team-leads">
-            {% if team.team_lead_title %}
-              <p class="problem-statement-gray-text"> {{ team.team_lead_title }} </p>
-            {% endif %}
-            {% if team.team_leads %}
-              {% for lead in team.team_leads %}
-                <p> {{ lead }} </p>
-              {% endfor %}
-            {% endif %}
-          </li>
-          <li class="problem-statement-collaborators">
-            {% if team.team_role %}
-              <p class="problem-statement-gray-text"> {{ team.team_role }} </p>
-            {% endif %}
-            <ul>
-              {% if team.collaborators %}
-                {% for collaborator in team.collaborators %}
-                  <li class="problem-statement-gray-text-bold"> {{ collaborator }} </li>
+    <section>
+      <div class="problem-statement-section-outer">
+        <ul class="problem-statement-section-inner">
+          <h3> {{ problem.problem_statement }} </h3>
+          <p class="problem-statement-gray-text"> {{ problem.department }} </p>
+          <h4> {{ problem.goal }} </h4>
+          {% for team in problem.teams %}
+            <li class="problem-statement-team-leads">
+              {% if team.team_lead_title %}
+                <p class="problem-statement-gray-text"> {{ team.team_lead_title }} </p>
+              {% endif %}
+              {% if team.team_leads %}
+                {% for lead in team.team_leads %}
+                  <p> {{ lead }} </p>
                 {% endfor %}
               {% endif %}
-            </ul>
-          </li>
-          <br>
-        {% endfor %}
-      </ul>
-    </div>
+            </li>
+            <li class="problem-statement-collaborators">
+              {% if team.team_role %}
+                <p class="problem-statement-gray-text"> {{ team.team_role }} </p>
+              {% endif %}
+              <ul>
+                {% if team.collaborators %}
+                  {% for collaborator in team.collaborators %}
+                    <li class="problem-statement-gray-text-bold"> {{ collaborator }} </li>
+                  {% endfor %}
+                {% endif %}
+              </ul>
+            </li>
+            <br>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
   {% endfor %}
 </div>
