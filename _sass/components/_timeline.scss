@@ -119,3 +119,125 @@ section:nth-of-type(odd) {background: #FCFCFC}
   margin-left: 30%;
   width: 523px;
 }
+
+@media only screen and (max-width: 600px) {
+  max-width: 100vw
+  .usa-hero-callout.usa-section-dark {
+    background-color: #0059FC;
+    color: #FFFFFF;
+    width: 90%;
+    .usa-hero-callout-alt {
+      font-family: 'Roboto Mono', monospace;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 26px;
+      width: 90%;
+      color: #FFFFFF;
+    }
+
+    .hero-header-alt {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      width: 100%;
+    }
+  }
+
+  section:nth-of-type(even) {background: #FFF}
+  section:nth-of-type(odd) {background: #FCFCFC}
+
+  .problem-statement-section-outer {
+    ul.problem-statement-section-inner {
+      padding: 20px;
+
+      li.problem-statement-team-leads {
+        width: 90%;
+        margin-right: 5%;
+        display: inline-block;
+        vertical-align: text-top;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      li.problem-statement-collaborators {
+        width: 90%;
+        display: inline-block;
+        vertical-align: text-top;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      p.problem-statement-gray-text {
+        width: 60%;
+        font-size: 15px;
+        line-height: 20px;
+        color: #4F4F4F;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      li.problem-statement-gray-text-bold {
+        width: 40%;
+        padding: 9px;
+        left: 0;
+        margin-right: 5px;
+        font-size: 15px;
+        line-height: 20px;
+        color: #4F4F4F;
+        font-weight: bold;
+        display: inline-block;
+        border-top-style: solid;
+        font-family: 'Roboto', sans-serif;
+      }
+      p.problem-statement-black-text {
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+      }
+      h3 {
+        font-family: 'Roboto', sans-serif;
+        line-height: 40px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      h4 {
+        font-family: 'Roboto', sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+        width: 50%
+      }
+    }
+  }
+
+  .weeks-carousel {
+    margin-left: 5%;
+    padding: 20px;
+    width: 100%
+    label {
+      padding: 10px;
+      color: #FFC402;
+      font-size: 30px;
+    }
+    h4.week-title {
+      font-family: 'Roboto', sans-serif;
+      line-height: 30px;
+      font-size: 20px;
+      width: 50%
+    }
+  }
+
+  .weeks-carousel-week {
+    margin-left: 20px;
+    width: 40%;
+  }
+
+}
